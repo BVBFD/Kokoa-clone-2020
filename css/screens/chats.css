@@ -1,0 +1,19 @@
+.chats-screen {
+  width: 100%;
+  position: fixed;
+  top: 90px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.user-component__column_chats {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  align-items: flex-end;
+}
+
+.chats_time {
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0, 0.4);
+}
