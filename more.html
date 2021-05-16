@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,32 +24,65 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></span>
         </div>
     </header>
 
-    <main class="chats-screen main-screen">
+    <main class="chats-screen main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="screenshots/kokoa_clone_2020.jpg" 
-                class="user-component__avatar user-component__avatar" />
+                class="user-component__avatar user-component__avatar--xl" />
                 <div class="user-component__text">
                     <h4 class="user-component__title">Mr.Lee</h4>
-                    <h6 class="user-component__subtitle">Please check my Kokoa Account Info</h6>
+                    <h6 class="user-component__subtitle">+1 787-666-999</h6>
                 </div>
             </div>
-            <div class="user-component__column_chats">
-                <span class="chats_time">21:22</span>
-                <div class="badge">1</div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
             </div>
         </div>
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-smile-wink"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fas fa-paint-roller"></i>
+                <span>Themes</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Account</span>
+            </div>
+        </div>
+        <div class="more-suggestion">
+            <h4 class="more-suggestion__title">Suggestions</h4>
+            <div class="more-suggestion__icon">
+                <div class="more-suggestion__icons">
+                    <div class="more-suggestion__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestion__icon-text">Kokoa Story</span>
+                </div>
+                <div class="more-suggestion__icons">
+                    <div class="more-suggestion__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestion__icon-text">Kokoa Story</span>
+            </div>
+        </div>
+        </div>
     </main>
-    
+   
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
@@ -60,7 +93,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
